@@ -1,4 +1,4 @@
-'''
+
 #List Comprehension simple
 numeros = [1, 2, 3, 4, 5]
 cuadrados = [x**2 for x in numeros]
@@ -39,7 +39,7 @@ print(cuadrados)  # Salida: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 #Creando sets
 vocales = {letra for letra in 'supercalifragilisticoespialidoso' if letra in 'aeiou'}
 print(vocales)  # Salida: {'a', 'e', 'i', 'o', 'u'}
-'''
+
 #ejercicio
 def es_primo(n):
     if n < 2:
